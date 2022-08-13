@@ -4,6 +4,20 @@ This is the repository for our NAACL 2022 paper "Learning to Transfer Prompts fo
 
 # Datasets and Prompts
 
+- CNN/Daily Mail
+- XSum
+- MSNews
+- Multi-News
+- NEWSROOM
+- SQuAD
+- Wiki Neutrality
+- Quora
+- PersonaChat
+- TopicalChat
+- DailyDialog
+- DSTC7-AVSD
+- MultiWOZ
+- WritingPrompts
 
 # Run PTG based on TextBox
 
