@@ -19,6 +19,8 @@ This is the repository for our NAACL 2022 paper "Learning to Transfer Prompts fo
 - MultiWOZ
 - WritingPrompts
 
+You can also download these datasets from [TextBox]().
+
 # Run PTG based on TextBox
 
 First, you should copy the textbox repository and follow its [instruction]().
