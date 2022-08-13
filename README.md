@@ -1,6 +1,6 @@
 # Transfer-Prompts-for-Text-Generation
 
-This repository contains the source codes and datasets for NAACL 2022 paper "Learning to Transfer Prompts for Text Generation".
+This is the repository for our NAACL 2022 paper "Learning to Transfer Prompts for Text Generation". The implementation is completely based on our newly-developed text generation library [TextBox 2.0](https://github.com/RUCAIBox/TextBox).
 
 # Directory
 
