@@ -1,6 +1,6 @@
 # Transfer-Prompts-for-Text-Generation
 
-This is the repository for NAACL 2022 paper "Learning to Transfer Prompts for Text Generation". It is based on text generation library **[TextBox](https://github.com/RUCAIBox/TextBox)**
+This is the repository for NAACL 2022 paper "Learning to Transfer Prompts for Text Generation". Our implementation for PTG is completely based on our developed text generation library **[TextBox](https://github.com/RUCAIBox/TextBox)**
 
 ## Prompt Source
 The `prompt_source.pth` in this repository contains the source task prompts (*i.e.*, tensors of shape `[200,1024]`) trained on 14 datasets as introduced in our paper:
