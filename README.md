@@ -1,6 +1,6 @@
 # Transfer-Prompts-for-Text-Generation
 
-This is the repository for NAACL 2022 paper "Learning to Transfer Prompts for Text Generation". Our implementation for PTG is completely based on our developed text generation library **[TextBox](https://github.com/RUCAIBox/TextBox)**
+This is the repository for NAACL 2022 paper "Learning to Transfer Prompts for Text Generation". The implementation is completely based on our newly-developed text generation library **[TextBox 2.0](https://github.com/RUCAIBox/TextBox)**
 
 ## Prompt Source
 The `prompt_source.pth` in this repository contains the source task prompts (*i.e.*, tensors of shape `[200,1024]`) trained on 14 datasets as introduced in our paper:
@@ -21,18 +21,18 @@ The `prompt_source.pth` in this repository contains the source task prompts (*i.
 You can also download these datasets [here](https://github.com/RUCAIBox/TextBox#dataset).
 
 ## Installation
-Just clone the TextBox repository and following its [instructions](https://github.com/RUCAIBox/TextBox#installation).
+You first need to clone the TextBox repository and follow its [instructions](https://github.com/RUCAIBox/TextBox#installation).
 
-Then, copy the `prompt_source.pth` into the TextBox folder.
+Then, you can copy the `prompt_source.pth` into the TextBox folder .
 
-## Running Our PTG on TextBox
-For example, you can conduct our cross-dataset experiment on cnndm dataset using the command:
+## Running PTG based on TextBox
+For example, you can conduct our cross-dataset experiments on cnndm dataset using this command:
 ```bash
 python run_textbox.py --model=PTG --dataset=cnndm --model_path=facebook/bart-large
 ```
-In this default case, the source task is msn, mn, and nr.
+In this default case, the source tasks (datasets) include msn, mn, and nr.
 
-You can use `--dataset=xxx` to specify the dataset name.
+You can use the hyper-parameter `--dataset=xxx` to specify the dataset name.
 
 In addition, you can also specify the source tasks using `--source_task=list_of_task`. The default setting is equivalent to `--source_task=\[\'msn\',\'mn\',\'nr\'\]`.
 
