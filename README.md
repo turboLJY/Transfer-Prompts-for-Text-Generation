@@ -23,7 +23,7 @@ You can also download these datasets [here](https://github.com/RUCAIBox/TextBox#
 ## Installation
 First, you should clone the TextBox repository and follow its [instructions](https://github.com/RUCAIBox/TextBox#installation).
 
-Then, you may copy the `prompt_source.pth` into the TextBox folder (*i.e.*, <your clone dir>/TextBox).
+Then, you may copy the `prompt_source.pth` into the TextBox folder (*i.e.*, \<your clone dir\>/TextBox).
 
 ## Running PTG based on TextBox
 For example, you can conduct our cross-dataset experiments on cnndm dataset using this command:
